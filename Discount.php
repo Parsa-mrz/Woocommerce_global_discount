@@ -1,8 +1,15 @@
 <?php
 /*
-Plugin Name: Discount Plugin
+Plugin Name:  Global Discount For Woocommerce
+Plugin URI: #
+Description: This plugin allows you add a global discount.
+Author: Eskano
 Version: 1.0.0
-Description: A plugin to apply discounts to all products
+Author URI: https://eskanogroup.ir
+Text Domain: wc-order-tracking
+License: GPL2
+Developers :
+ Parsa Mirzaie => senior PHP Developer  => https://github.com/Parsa-mrz
 */
 
 defined('ABSPATH') || exit;
