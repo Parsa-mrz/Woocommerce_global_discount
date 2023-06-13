@@ -6,7 +6,7 @@ Description: This plugin allows you add a global discount.
 Author: Eskano
 Version: 1.0.0
 Author URI: https://eskanogroup.ir
-Text Domain: wc-order-tracking
+Text Domain: wc-global-discount
 License: GPL2
 Developers :
  Parsa Mirzaie => senior PHP Developer  => https://github.com/Parsa-mrz
@@ -36,6 +36,7 @@ class Discount
     private function addCore()
     {
         include_once( plugin_dir_path(__FILE__ ) . 'Core.php');
+        include_once( plugin_dir_path(__FILE__) . 'AddMenu.php');
     }
 }
 new Discount();

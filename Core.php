@@ -8,7 +8,7 @@ class DiscountCore
     }
     public function AddDiscount($price, $product)
     {
-        $discount_percentage = 10; // Change this to your desired discount percentage
+        $discount_percentage = get_option('discount_percentage'); // Change this to your desired discount percentage
 
         $discount = ($price * $discount_percentage) / 100;
         $discounted_price = $price - $discount;
