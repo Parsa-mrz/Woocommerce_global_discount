@@ -25,7 +25,6 @@ class DiscountMenu
     {
         $message = '';
         $discount_percentage = intval($_POST['discount']);
-        var_dump($discount_percentage);
         if ($discount_percentage > 100) {
             $message = 'Discount percentage is invalid';
         }elseif($discount_percentage !== 0){
